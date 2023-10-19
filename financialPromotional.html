@@ -35,6 +35,7 @@
         font-family: "Poppins", sans-serif;
         font-size: 14px;
         font-weight: 400;
+        list-style: none;
       }
       .text-poppins {
         font-family: "Poppins", sans-serif;
@@ -54,7 +55,17 @@
       @media screen and (max-width: 500px) {
         .minkc {
           transform: translateY(-0.5rem) !important;
-          padding: 0 2rem !important;
+          padding: 2rem !important;
+        }
+        .details {
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
+          padding-top: 4rem 0 !important;
+          transform: translateY(1rem) !important;
+        }
+        .details .details__wrapper:last-child {
+          transform: translateX(-2rem) !important;
         }
         .speakerSection {
           display: flex;
@@ -88,17 +99,32 @@
           padding: 2.5rem 0.5rem 1rem 0.5rem;
         }
         .mobileView {
-          padding: 30px 10px 30px 10px !important;
+          padding: 0px 0px 0px 0px !important;
         }
         .shrinkImage {
           width: 150px !important;
         }
       }
       @media screen and (max-width: 600px) {
+        .minkc {
+          transform: translateY(-0.5rem) !important;
+          padding: 2rem !important;
+        }
+        .details {
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
+          padding-top: 4rem 0 !important;
+          transform: translateY(1rem) !important;
+        }
+        .details .details__wrapper:last-child {
+          transform: translateX(-2rem) !important;
+        }
         .speakerSection {
           display: flex;
           flex-direction: column;
         }
+
         .res-table {
           width: 100% !important;
           padding: 0 !important;
@@ -127,13 +153,27 @@
           padding: 2.5rem 0.5rem 1rem 0.5rem;
         }
         .mobileView {
-          padding: 30px 10px 30px 10px !important;
+          padding: 0px 10px 0px 10px !important;
         }
         .shrinkImage {
           width: 150px !important;
         }
       }
       @media screen and (max-width: 700px) {
+        .minkc {
+          transform: translateY(-0.5rem) !important;
+          padding: 2rem !important;
+        }
+        .details {
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
+          padding-top: 4rem 0 !important;
+          transform: translateY(1rem) !important;
+        }
+        .details .details__wrapper:last-child {
+          transform: translateX(-2rem) !important;
+        }
         .speakerSection {
           display: flex;
           flex-direction: column;
@@ -203,86 +243,121 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 2rem 0;
           "
         >
           <div class="mink__content" style="max-width: 35rem">
-            <h3
-              style="
-                font-size: 14px;
-                text-align: center;
-                margin: 0 auto;
-                margin-bottom: 2rem;
-                max-width: 24rem;
-              "
-            >
-              ARE YOU READY TO UNLOCK THE FULL POTENTIAL OF YOUR FINANCIAL
-              REPORTS WITHIN QUICKBOOKS?
-            </h3>
             <p style="text-align: justify">
-              Get reat for an insightful seminar that will equip you with the
-              knowledge and skills to make data-driven decisions and supercharge
-              your financial success. Whether you are a business owner,
-              accounting professional, or student, all are welcome to join and
-              benefit from this enriching experience.
+              Get set to unlock the full potential of your financial reports!
+              Join us for a FREE SEMINAR titled "Financial Analysis, Indicators,
+              and Metrics" which promises to empower you with the insights and
+              expertise needed to harness data for informed decision-making and
+              propel your financial triumphs. Our esteemed speaker, Mr. Robert
+              Han, an accomplished C-Level executive with a remarkable career
+              marked by unwavering passion and a results-driven approach, will
+              guide you through this enriching experience. With extensive
+              expertise spanning manufacturing, distribution, technology, and
+              professional services, Mr. Han brings a wealth of knowledge to
+              help you supercharge your financial success. Whether you're a
+              business owner, an accounting expert, or a curious student, we
+              extend a warm invitation to all to be a part of this enlightening
+              journey.
             </p>
           </div>
         </div>
-
-        <h3>SEMINAR HIGHLIGHTS:</h3>
-        <div
-          class="eventDetails"
-          style="display: flex; gap: 20px; text-align: unset"
-        >
-          <ul style="list-style: none; list-style-position: inside">
-            <li style="display: flex">
-              <p
-                class="disableWidth"
-                style="margin: 0; width: 150px; font-weight: 500"
-              >
-                Date:
+        <div class="details" style="display: flex; align-items: center">
+          <div
+            class="details__wrapper"
+            style="display: flex; align-items: start; gap: 2rem"
+          >
+            <div class="details__date">
+              <h4 style="line-height: 0; font-size: 0.8rem">NOVEMBER</h4>
+              <h2 style="line-height: 0; font-size: 3.5rem">22</h2>
+              <h5 style="line-height: 0; font-size: 0.8rem">2023 - PST</h5>
+            </div>
+            <div class="details__time">
+              <h4 style="line-height: 0; font-size: 14px">8:00AM - 12:00NN</h4>
+              <p style="font-size: 12px">
+                3rd Floor, Frotline Business <br />
+                Solutions, for in-house <br />
+                participants with an in online <br />
+                stream via FB Live
               </p>
-              <p style="margin: 0">November 11, 2023 PST</p>
-            </li>
-            <li style="display: flex">
-              <p
-                class="disableWidth"
-                style="margin: 0; width: 150px; font-weight: 500"
-              >
-                Time:
-              </p>
-              <p style="margin: 0">8 AM TO 12 PM</p>
-            </li>
-            <li style="display: flex">
-              <p
-                class="disableWidth"
-                style="margin: 0; width: 150px; font-weight: 500"
-              >
-                Location
-              </p>
-              <p style="margin: 0">Online Zoom</p>
-            </li>
-          </ul>
+            </div>
+          </div>
+          <div class="details__wrapper" style="display: flex">
+            <figure style="transform: translateX(1.5rem); width: fit-content">
+              <img
+                src="https://frontlinebusiness.com.ph/wp-content/uploads/2023/10/image.png"
+                alt=""
+                style="width: 80px"
+              />
+            </figure>
+            <h5 style="font-weight: 600">
+              To secure a spot, <br />
+              <p style="font-size: 25px; font-weight: 600">Register Now!</p>
+            </h5>
+          </div>
         </div>
-        <h3>WHAT TO EXPECT:</h3>
-        <ul style="list-style: none; list-style-position: inside">
+        <h3
+          style="
+            margin-top: 2rem;
+            background: #a00040;
+            padding: 0.3rem 1rem;
+            color: white;
+            margin-bottom: 1rem;
+          "
+        >
+          DESCRIPTION
+        </h3>
+        <p>
+          The "<b>Financial Analysis, Indicators, and Metrics</b>" seminar is
+          designed to provide you with the knowledge and skills needed to
+          leverage financial reports within QuickBooks effectively. The seminar
+          will delve into key topics that are essential for enhancing financial
+          decision-making and achieving success, including:
+        </p>
+        <ul>
           <li>
-            &#128077; Learn the fundamentals of bookkeeping and its vital role
-            in business operations.
+            <b>Financial Analysis:</b> Learn how to interpret financial data
+            effectively, enabling you to make informed decisions and develop
+            strategies for financial success.
           </li>
           <li>
-            &#128077; Gain hands-on experience with QuickBooks, the
-            industry-leading accounting software.
+            <b>Key Performance Indicators and Metrics:</b> Discover the
+            essential KPIs and metrics that provide a clear understanding of
+            your business's performance and financial health. We will guide you
+            on how to utilize these indicators to drive growth and
+            profitability.
           </li>
           <li>
-            &#128077; Get real-world insights into managing finances, from
-            invoices to financial statements.
+            <b>Key Ratios:</b> Explore the fundamental financial ratios that are
+            critical for assessing your company's liquidity, profitability, and
+            efficiency. You'll gain insights into how to use these ratios for
+            benchmarking and making informed financial choices.
           </li>
           <li>
-            &#128077; Discover how bookkeeping skills can open doors to exciting
-            job opportunities.
+            <b>Trends / Forward Looking:</b> Understand the significance of
+            identifying trends and taking a forward-looking approach to
+            financial reporting. Learn how to anticipate changes and adapt your
+            financial strategies accordingly.
+          </li>
+          <li>
+            <b>Management Discussion:</b> We'll emphasize the importance of
+            fostering effective communication within your team. You'll discover
+            how to engage in productive discussions around financial reports to
+            align everyone with your financial goals.
           </li>
         </ul>
-        <h3>REGISTRATION DETAILS:</h3>
+        <h3
+          style="
+            background-color: #a00040;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+          "
+        >
+          REGISTRATION DETAILS:
+        </h3>
         <p style="margin-bottom: 20px">
           To secure your spot, register now via this link: <br />
           <a
