@@ -53,19 +53,16 @@
       }
 
       @media screen and (max-width: 500px) {
+        .info {
+          transform: translateY(0rem) !important;
+        }
+        .info__wrapper {
+          display: flex;
+          flex-direction: column;
+        }
         .minkc {
           transform: translateY(-0.5rem) !important;
           padding: 2rem !important;
-        }
-        .details {
-          display: flex;
-          flex-direction: column;
-          margin: 0 auto;
-          padding-top: 4rem 0 !important;
-          transform: translateY(1rem) !important;
-        }
-        .details .details__wrapper:last-child {
-          transform: translateX(-2rem) !important;
         }
         .speakerSection {
           display: flex;
@@ -106,19 +103,16 @@
         }
       }
       @media screen and (max-width: 600px) {
+        .info {
+          transform: translateY(0rem) !important;
+        }
+        .info__wrapper {
+          display: flex;
+          flex-direction: column;
+        }
         .minkc {
           transform: translateY(-0.5rem) !important;
           padding: 2rem !important;
-        }
-        .details {
-          display: flex;
-          flex-direction: column;
-          margin: 0 auto;
-          padding-top: 4rem 0 !important;
-          transform: translateY(1rem) !important;
-        }
-        .details .details__wrapper:last-child {
-          transform: translateX(-2rem) !important;
         }
         .speakerSection {
           display: flex;
@@ -160,20 +154,18 @@
         }
       }
       @media screen and (max-width: 700px) {
+        .info {
+          transform: translateY(0rem) !important;
+        }
+        .info__wrapper {
+          display: flex;
+          flex-direction: column;
+        }
         .minkc {
           transform: translateY(-0.5rem) !important;
           padding: 2rem !important;
         }
-        .details {
-          display: flex;
-          flex-direction: column;
-          margin: 0 auto;
-          padding-top: 4rem 0 !important;
-          transform: translateY(1rem) !important;
-        }
-        .details .details__wrapper:last-child {
-          transform: translateX(-2rem) !important;
-        }
+
         .speakerSection {
           display: flex;
           flex-direction: column;
@@ -265,47 +257,30 @@
             </p>
           </div>
         </div>
-        <div
-          class="details"
-          style="
-            display: flex;
-            align-items: center;
-            transform: translateY(-1.5rem);
-          "
-        >
+        <div class="info" style="transform: translateY(-3rem); padding: 2rem 0">
           <div
-            class="details__wrapper"
-            style="display: flex; align-items: start; gap: 2rem"
+            class="info__wrapper"
+            style="
+              display: flex;
+              align-items: center;
+              max-width: fit-content;
+              gap: 5rem;
+              margin: 0 auto;
+            "
           >
-            <div class="details__date">
-              <h4 style="line-height: 0; font-size: 0.8rem">NOVEMBER</h4>
-              <h2 style="line-height: 0; font-size: 3.5rem">22</h2>
-              <h5 style="line-height: 0; font-size: 0.8rem">2023 - PST</h5>
-            </div>
-            <div class="details__time">
-              <h4 style="line-height: 0; font-size: 14px">8:00AM - 12:00NN</h4>
-              <p style="font-size: 12px">
-                3rd Floor, Frotline Business <br />
-                Solutions, for in-house <br />
-                participants with an in online <br />
-                stream via FB Live
-              </p>
-            </div>
-          </div>
-          <div class="details__wrapper" style="display: flex">
-            <figure style="transform: translateX(1.5rem); width: fit-content">
-              <img
-                src="https://frontlinebusiness.com.ph/wp-content/uploads/2023/10/image.png"
-                alt=""
-                style="width: 80px"
-              />
-            </figure>
-            <h5 style="font-weight: 600">
-              To secure a spot, <br />
-              <p style="font-size: 25px; font-weight: 600">Register Now!</p>
-            </h5>
+            <img
+              src="https://frontlinebusiness.com.ph/wp-content/uploads/2023/10/timedate.png"
+              alt=""
+              style="width: 17rem"
+            />
+            <img
+              src="https://frontlinebusiness.com.ph/wp-content/uploads/2023/10/qr.png"
+              alt=""
+              style="width: 17rem"
+            />
           </div>
         </div>
+
         <!-- <h3
           style="
             margin-top: 2rem;
