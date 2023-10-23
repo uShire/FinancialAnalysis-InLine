@@ -31,7 +31,9 @@
         padding: 0;
       }
       p,
-      li {
+      li,
+      a,
+      td {
         font-family: "Poppins", sans-serif;
         font-size: 14px;
         font-weight: 400;
@@ -72,6 +74,16 @@
           object-fit: cover !important;
           object-fit: center center !important;
           display: block !important;
+        }
+        #partitions {
+          max-width: 600px !important;
+          margin: 0 auto !important;
+        }
+        /* #partitions table tr {
+          height: 5rem !important;
+        } */
+        #partitions table tr td:first-child {
+          width: 15rem !important;
         }
       }
     </style>
@@ -144,6 +156,105 @@
           />
         </div>
       </div>
+      <div id="partitions" class="details" style="padding-bottom: 2rem">
+        <h3
+          style="
+            background: #a00040;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            margin-bottom: 1rem;
+          "
+        >
+          SEMINAR DETAILS
+        </h3>
+        <table style="padding: 0 1rem">
+          <tr style="height: 2rem">
+            <td style="width: 10rem; font-size: 16px">Seminar Title:</td>
+            <td style="font-size: 14px">
+              <b>Financial Analysis, Indicators, and Metrics</b>
+            </td>
+          </tr>
+          <tr style="height: 2rem">
+            <td style="width: 10rem; font-size: 16px">Date:</td>
+            <td style="font-size: 14px">November 22, 2023 PST</td>
+          </tr>
+          <tr style="height: 2rem">
+            <td style="width: 10rem; font-size: 16px">Time:</td>
+            <td style="font-size: 14px">8:00AM - 12NN</td>
+          </tr>
+          <tr style="height: 2rem">
+            <td style="width: 10rem; font-size: 16px">Location</td>
+            <td style="font-size: 14px">
+              3rd Floor, Frontline Business Solutions, with an online stream via
+              FB Live.
+            </td>
+          </tr>
+          <tr style="height: 2rem">
+            <td style="width: 10rem; font-size: 16px">FB Live Link</td>
+            <td style="font-size: 14px">
+              <a href="" style="color: blue">Enter Link</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="partitions" class="description" style="padding-bottom: 2rem">
+        <h3
+          style="
+            background: #a00040;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            margin-bottom: 1rem;
+          "
+        >
+          DESCRIPTION
+        </h3>
+        <div class="description__content" style="padding: 0 1rem">
+          <p style="text-align: justify">
+            The "Financial Analysis, Indicators, and Metrics" seminar is
+            designed to provide you with the knowledge and skills needed to
+            leverage financial reports effectively. The seminar will delve into
+            key topics that are essential for enhancing financial
+            decision-making and achieving success, including:
+          </p>
+          <ol>
+            <li style="list-style: decimal; text-align: justify">
+              <b>Financial Analysis:</b>
+              Learn how to interpret financial data effectively, enabling you to
+              make informed decisions and develop strategies for financial
+              success.
+            </li>
+            <li style="list-style: decimal; text-align: justify">
+              <b>Key Performance Indicators and Metrics:</b>
+              Discover the essential KPIs and metrics that provide a clear
+              understanding of your business's performance and financial health.
+              We will guide you on how to utilize these indicators to drive
+              growth and profitability.
+            </li>
+            <li style="list-style: decimal; text-align: justify">
+              <b>Key Ratios</b>
+              Explore the fundamental financial ratios that are critical for
+              assessing your company's liquidity, profitability, and efficiency.
+              You'll gain insights into how to use these ratios for benchmarking
+              and making informed financial choices.
+            </li>
+            <li style="list-style: decimal; text-align: justify">
+              <b>Trends / Forward Looking:</b>
+              Understand the significance of identifying trends and taking a
+              forward-looking approach to financial reporting. Learn how to
+              anticipate changes and adapt your financial strategies
+              accordingly.
+            </li>
+            <li style="list-style: decimal; text-align: justify">
+              <b>Management Discussion:</b>
+              We'll emphasize the importance of fostering effective
+              communication within your team. You'll discover how to engage in
+              productive discussions around financial reports to align everyone
+              with your financial goals.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="profile"></div>
     </section>
   </body>
 </html>
